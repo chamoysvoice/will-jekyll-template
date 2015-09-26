@@ -1,17 +1,17 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "/will-jekyll-template" # the subpath of your site, e.g. /blog
-url: "http://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+description: "Homepage of Chamoy: Hacker Freelance and Algorithm Maniac "
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:3000/"
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+username: chamoysvoice
+user_description: a sushi hungry hacker
+user_title: Web Developer
+email: chamoysvoice@gmail.com
+twitter_username: chamoysvoice
+github_username:  chamoysvoice
+gplus_username:  Chamoy Donnie
+#disqus_username: lorem_ipsum
 
 # Build settings
 markdown: kramdown
@@ -28,6 +28,7 @@ compress_html:
 
 # Links to include in menu navigation
 # For external links add external: true
+external: true
 links:
   - title: Home
     url: /
@@ -39,4 +40,4 @@ links:
     url: /about
 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+#exclude: ['package.json', 'src', 'node_modules']
